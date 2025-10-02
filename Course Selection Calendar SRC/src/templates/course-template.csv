@@ -1,0 +1,11 @@
+Code,Name,Trimester,Month,Start Time,End Time,Day of Week,Instructor,Weeks Duration,Meeting Dates,Section
+MP-IA,"Intro to Ableton",0,0,9:00 AM,10:30 AM,Monday,"Sarah Johnson",4,"Jan 1; Jan 8; Jan 15; Jan 22",section1
+MP-IA,"Intro to Ableton",0,2,2:00 PM,3:30 PM,Wednesday,"Sarah Johnson",4,"Mar 6; Mar 13; Mar 20; Mar 27",section1
+MP-IS,"Intro to Synthesis",0,1,11:00 AM,12:30 PM,Tuesday,"Mike Chen",4,"Feb 6; Feb 13; Feb 20; Feb 27",section1
+MP-PP,"Piano for Producers",0,0,1:00 PM,2:30 PM,Thursday,"Lisa Rodriguez",4,"Jan 4; Jan 11; Jan 18; Jan 25",section1
+MP-MT,"Music Theory for Producers",0,3,10:00 AM,11:30 AM,Friday,"David Kim",4,"Apr 5; Apr 12; Apr 19; Apr 26",section1
+ADVCS-101,"Advanced Programming",0,0,9:00 AM,10:30 AM,Tuesday,"Dr. Chang",4,"Jan 2; Jan 9; Jan 16; Jan 23",section2
+DATA-101,"Database Design",0,0,11:00 AM,12:30 PM,Wednesday,"Prof. Singh",4,"Jan 3; Jan 10; Jan 17; Jan 24",section2
+NET-101,"Network Fundamentals",0,1,2:00 PM,3:30 PM,Friday,"Dr. Park",4,"Feb 2; Feb 9; Feb 16; Feb 23",section2
+WEB-101,"Web Development",0,1,9:00 AM,10:30 AM,Monday,"Prof. Kumar",4,"Feb 5; Feb 12; Feb 19; Feb 26",section2
+SYS-101,"Systems Analysis",0,2,10:00 AM,11:30 AM,Tuesday,"Dr. Liu",4,"Mar 5; Mar 12; Mar 19; Mar 26",section2

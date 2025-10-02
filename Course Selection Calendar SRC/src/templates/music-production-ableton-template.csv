@@ -1,0 +1,11 @@
+ID,Code,Name,Section,Trimester,Month,Start Time,End Time,Day of Week,Second Day of Week,Instructor,Weeks Duration,Meeting Dates
+ableton-intro-winter-mon-001,MPA-IA,"Intro to Ableton",section1,0,0,9:00 AM,10:30 AM,Monday,,Sarah Johnson,4,"Jan 8; Jan 15; Jan 22; Jan 29"
+ableton-intro-winter-wed-002,MPA-IA,"Intro to Ableton",section1,0,2,2:00 PM,3:30 PM,Wednesday,,Sarah Johnson,4,"Mar 6; Mar 13; Mar 20; Mar 27"
+synthesis-intro-winter-tue-003,MPA-IS,"Intro to Synthesis",section1,0,1,11:00 AM,12:30 PM,Tuesday,,Mike Chen,4,"Feb 6; Feb 13; Feb 20; Feb 27"
+piano-producers-winter-thu-004,MPA-PP,"Piano for Producers",section1,0,0,1:00 PM,2:30 PM,Thursday,,Lisa Rodriguez,4,"Jan 4; Jan 11; Jan 18; Jan 25"
+music-theory-producers-winter-fri-005,MPA-MT,"Music Theory for Producers",section1,0,3,10:00 AM,11:30 AM,Friday,,David Kim,4,"Apr 5; Apr 12; Apr 19; Apr 26"
+studio-engineering-intro-spring-mon-006,MPA-ISE,"Intro to Studio Engineering",section1,1,4,9:00 AM,10:30 AM,Monday,,Alex Wilson,4,"May 6; May 13; May 20; May 27"
+advanced-ableton-intermediate-tue-007,MPA-AAT,"Advanced Ableton Techniques",section2,0,1,1:00 PM,3:00 PM,Tuesday,,Sarah Johnson,6,"Feb 6; Feb 13; Feb 20; Feb 27; Mar 6; Mar 13"
+sound-design-synthesis-wed-008,MPA-SDS,"Sound Design & Synthesis",section2,1,5,10:00 AM,12:00 PM,Wednesday,,Mike Chen,6,"Jun 5; Jun 12; Jun 19; Jun 26; Jul 3; Jul 10"
+professional-mixing-proficient-fri-009,MPA-PM,"Professional Mixing",section3,2,9,2:00 PM,4:00 PM,Friday,,Alex Wilson,4,"Oct 4; Oct 11; Oct 18; Oct 25"
+course-with-two-days-010,MPA-TW,"Course with Two Days",section1,0,0,10:00 AM,11:30 AM,Monday,Wednesday,John Doe,4,"Jan 1; Jan 3; Jan 8; Jan 10; Jan 15; Jan 17; Jan 22; Jan 24"

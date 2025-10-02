@@ -1,0 +1,345 @@
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --font-size: 16px;
+  --background: #000000;
+  --foreground: #ffffff;
+  --card: #111111;
+  --card-foreground: #ffffff;
+  --popover: #111111;
+  --popover-foreground: #ffffff;
+  --primary: #f04b51;
+  --primary-foreground: #ffffff;
+  --secondary: #333333;
+  --secondary-foreground: #ffffff;
+  --muted: #222222;
+  --muted-foreground: #cccccc;
+  --accent: #444444;
+  --accent-foreground: #ffffff;
+  --destructive: #f04b51;
+  --destructive-foreground: #ffffff;
+  --border: rgba(255, 255, 255, 0.1);
+  --input: transparent;
+  --input-background: #222222;
+  --switch-background: #333333;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --ring: #f04b51;
+  --chart-1: #f04b51;
+  --chart-2: #ff6b6b;
+  --chart-3: #ff8e8e;
+  --chart-4: #ffaaaa;
+  --chart-5: #ffcccc;
+  --radius: 0.625rem;
+  --sidebar: #111111;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #f04b51;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #222222;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: rgba(255, 255, 255, 0.1);
+  --sidebar-ring: #f04b51;
+}
+
+.dark {
+  --background: #000000;
+  --foreground: #ffffff;
+  --card: #111111;
+  --card-foreground: #ffffff;
+  --popover: #111111;
+  --popover-foreground: #ffffff;
+  --primary: #f04b51;
+  --primary-foreground: #ffffff;
+  --secondary: #333333;
+  --secondary-foreground: #ffffff;
+  --muted: #222222;
+  --muted-foreground: #cccccc;
+  --accent: #444444;
+  --accent-foreground: #ffffff;
+  --destructive: #f04b51;
+  --destructive-foreground: #ffffff;
+  --border: rgba(255, 255, 255, 0.1);
+  --input: #222222;
+  --ring: #f04b51;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --chart-1: #f04b51;
+  --chart-2: #ff6b6b;
+  --chart-3: #ff8e8e;
+  --chart-4: #ffaaaa;
+  --chart-5: #ffcccc;
+  --sidebar: #111111;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #f04b51;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #222222;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: rgba(255, 255, 255, 0.1);
+  --sidebar-ring: #f04b51;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-input-background: var(--input-background);
+  --color-switch-background: var(--switch-background);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply text-foreground;
+    background: var(--background);
+    min-height: 100vh;
+  }
+
+  /* Ensure all clickable elements show pointer cursor */
+  button,
+  [role="button"],
+  [role="tab"],
+  [role="menuitem"],
+  [role="option"],
+  [role="combobox"],
+  [role="checkbox"],
+  [role="radio"],
+  [role="switch"],
+  [role="slider"],
+  .cursor-pointer,
+  a,
+  input[type="button"],
+  input[type="submit"],
+  input[type="reset"],
+  input[type="checkbox"],
+  input[type="radio"],
+  select,
+  [tabindex]:not([tabindex="-1"]),
+  [data-state="open"],
+  [data-state="closed"],
+  [aria-expanded],
+  [onClick],
+  [data-slot="button"],
+  [data-slot="select-trigger"],
+  [data-slot="tabs-trigger"],
+  [data-slot="dialog-trigger"],
+  [data-slot="dialog-close"],
+  summary {
+    cursor: pointer !important;
+  }
+
+  /* Ensure disabled elements show not-allowed cursor */
+  button:disabled,
+  [role="button"]:disabled,
+  input:disabled,
+  select:disabled,
+  textarea:disabled,
+  [aria-disabled="true"] {
+    cursor: not-allowed;
+  }
+
+  /* Text inputs should show text cursor */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"],
+  input[type="url"],
+  input[type="search"],
+  textarea {
+    cursor: text;
+  }
+}
+
+/**
+ * Base typography. This is not applied to elements which have an ancestor with a Tailwind text class.
+ */
+@layer base {
+  :where(:not(:has([class*=" text-"]), :not(:has([class^="text-"])))) {
+    h1 {
+      font-size: var(--text-2xl);
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+    }
+
+    h2 {
+      font-size: var(--text-xl);
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+    }
+
+    h3 {
+      font-size: var(--text-lg);
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+    }
+
+    h4 {
+      font-size: var(--text-base);
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+    }
+
+    p {
+      font-size: var(--text-base);
+      font-weight: var(--font-weight-normal);
+      line-height: 1.5;
+    }
+
+    label {
+      font-size: var(--text-base);
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+    }
+
+    button {
+      font-size: var(--text-base);
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+    }
+
+    input {
+      font-size: var(--text-base);
+      font-weight: var(--font-weight-normal);
+      line-height: 1.5;
+    }
+  }
+}
+
+html {
+  font-size: var(--font-size);
+}
+
+/* Additional cursor styles for component library elements */
+@layer components {
+  /* Radix UI and ShadCN specific selectors */
+  [data-radix-collection-item],
+  [data-radix-select-trigger],
+  [data-radix-tabs-trigger],
+  [data-radix-dialog-trigger],
+  [data-radix-dropdown-menu-trigger],
+  [data-radix-popover-trigger],
+  [data-radix-hover-card-trigger],
+  [data-radix-context-menu-trigger],
+  [data-radix-menubar-trigger],
+  [data-radix-navigation-menu-trigger],
+  [data-radix-accordion-trigger],
+  [data-radix-collapsible-trigger] {
+    cursor: pointer;
+  }
+
+  /* Card hover effects */
+  .card-hover:hover {
+    cursor: pointer;
+  }
+
+  /* Ensure badges and labels that are clickable show pointer */
+  .clickable-badge,
+  .clickable-label {
+    cursor: pointer;
+  }
+
+  /* Course selection grid specific */
+  [data-course-card] {
+    cursor: pointer;
+  }
+
+  /* Visible chromatic aberration effect for course cards */
+  .course-card {
+    position: relative;
+    box-shadow: 
+      -3px -3px 10px rgba(240, 75, 81, 0.25),
+      3px 3px 10px rgba(0, 100, 255, 0.2),
+      -1px -1px 15px rgba(240, 75, 81, 0.15),
+      1px 1px 15px rgba(0, 100, 255, 0.12),
+      0 0 1px rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+  }
+
+  /* Only apply hover effects to clickable course cards - exclude all disabled states */
+  .course-card:not(.cursor-not-allowed):not(.opacity-50):not(.opacity-60):not(.bg-red-50):not(.bg-gray-300):hover {
+    box-shadow: 
+      -8px -8px 20px rgba(240, 75, 81, 0.45),
+      8px 8px 20px rgba(0, 100, 255, 0.4),
+      -4px -4px 35px rgba(240, 75, 81, 0.3),
+      4px 4px 35px rgba(0, 100, 255, 0.25),
+      -12px -12px 50px rgba(240, 75, 81, 0.15),
+      12px 12px 50px rgba(0, 100, 255, 0.12),
+      0 0 3px rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+  }
+
+  /* Disable all dynamic effects for conflicted tiles (red background) */
+  .course-card.bg-red-50,
+  .course-card.bg-red-50:hover {
+    box-shadow: none !important;
+    transform: none !important;
+    cursor: not-allowed !important;
+  }
+
+  /* Disable all dynamic effects for course name selected tiles (gray background) */
+  .course-card.bg-gray-300,
+  .course-card.bg-gray-300:hover {
+    box-shadow: none !important;
+    transform: none !important;
+    cursor: not-allowed !important;
+  }
+
+  /* Disable all dynamic effects for unclickable tiles (cursor not allowed + opacity) */
+  .course-card.cursor-not-allowed,
+  .course-card.cursor-not-allowed:hover {
+    box-shadow: none !important;
+    transform: none !important;
+    cursor: not-allowed !important;
+  }
+
+  /* Ensure opacity-based disabled states also have no effects */
+  .course-card.opacity-50,
+  .course-card.opacity-50:hover,
+  .course-card.opacity-60,
+  .course-card.opacity-60:hover {
+    box-shadow: none !important;
+    transform: none !important;
+    cursor: not-allowed !important;
+  }
+
+  /* Admin and settings buttons */
+  [data-admin-trigger],
+  [data-settings-trigger] {
+    cursor: pointer;
+  }
+}

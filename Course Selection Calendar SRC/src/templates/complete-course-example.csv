@@ -1,0 +1,46 @@
+Code,Name,Trimester,Month,Start Time,End Time,Day of Week,Instructor,Weeks Duration,Meeting Dates,Section
+MP-IA,"Intro to Ableton",0,0,9:00 AM,10:30 AM,Monday,"Sarah Johnson",4,"Jan 1; Jan 8; Jan 15; Jan 22",section1
+MP-IA,"Intro to Ableton",0,2,2:00 PM,3:30 PM,Wednesday,"Sarah Johnson",4,"Mar 6; Mar 13; Mar 20; Mar 27",section1
+MP-IA,"Intro to Ableton",1,4,11:00 AM,12:30 PM,Friday,"Sarah Johnson",4,"May 3; May 10; May 17; May 24",section1
+MP-IS,"Intro to Synthesis",0,1,11:00 AM,12:30 PM,Tuesday,"Mike Chen",4,"Feb 6; Feb 13; Feb 20; Feb 27",section1
+MP-IS,"Intro to Synthesis",1,4,3:00 PM,4:30 PM,Friday,"Mike Chen",4,"May 3; May 10; May 17; May 24",section1
+MP-IS,"Intro to Synthesis",2,8,1:00 PM,2:30 PM,Thursday,"Mike Chen",4,"Sep 5; Sep 12; Sep 19; Sep 26",section1
+MP-PP,"Piano for Producers",0,0,1:00 PM,2:30 PM,Thursday,"Lisa Rodriguez",4,"Jan 4; Jan 11; Jan 18; Jan 25",section1
+MP-PP,"Piano for Producers",1,5,9:00 AM,10:30 AM,Monday,"Lisa Rodriguez",4,"Jun 3; Jun 10; Jun 17; Jun 24",section1
+MP-PP,"Piano for Producers",2,9,2:00 PM,3:30 PM,Wednesday,"Lisa Rodriguez",4,"Oct 2; Oct 9; Oct 16; Oct 23",section1
+MP-MT,"Music Theory for Producers",0,3,10:00 AM,11:30 AM,Friday,"David Kim",4,"Apr 5; Apr 12; Apr 19; Apr 26",section1
+MP-MT,"Music Theory for Producers",1,6,1:00 PM,2:30 PM,Tuesday,"David Kim",4,"Jul 2; Jul 9; Jul 16; Jul 23",section1
+MP-MT,"Music Theory for Producers",2,10,11:00 AM,12:30 PM,Thursday,"David Kim",4,"Nov 7; Nov 14; Nov 21; Nov 28",section1
+MP-ISE,"Intro to Studio Engineering",1,4,9:00 AM,10:30 AM,Monday,"Alex Wilson",4,"May 6; May 13; May 20; May 27",section1
+MP-ISE,"Intro to Studio Engineering",2,8,10:00 AM,11:30 AM,Tuesday,"Alex Wilson",4,"Sep 3; Sep 10; Sep 17; Sep 24",section1
+MP-ISE,"Intro to Studio Engineering",2,11,3:00 PM,4:30 PM,Friday,"Alex Wilson",4,"Dec 6; Dec 13; Dec 20; Dec 27",section1
+ADVCS-101,"Advanced Programming",0,0,9:00 AM,10:30 AM,Tuesday,"Dr. Chang",4,"Jan 2; Jan 9; Jan 16; Jan 23",section2
+ADVCS-101,"Advanced Programming",0,2,1:00 PM,2:30 PM,Thursday,"Dr. Chang",4,"Mar 7; Mar 14; Mar 21; Mar 28",section2
+ADVCS-101,"Advanced Programming",1,4,10:00 AM,11:30 AM,Monday,"Dr. Chang",4,"May 6; May 13; May 20; May 27",section2
+DATA-101,"Database Design",0,0,11:00 AM,12:30 PM,Wednesday,"Prof. Singh",4,"Jan 3; Jan 10; Jan 17; Jan 24",section2
+DATA-101,"Database Design",0,3,2:00 PM,3:30 PM,Monday,"Prof. Singh",4,"Apr 1; Apr 8; Apr 15; Apr 22",section2
+DATA-101,"Database Design",1,5,9:00 AM,10:30 AM,Thursday,"Prof. Singh",4,"Jun 6; Jun 13; Jun 20; Jun 27",section2
+NET-101,"Network Fundamentals",0,1,2:00 PM,3:30 PM,Friday,"Dr. Park",4,"Feb 2; Feb 9; Feb 16; Feb 23",section2
+NET-101,"Network Fundamentals",0,3,11:00 AM,12:30 PM,Tuesday,"Dr. Park",4,"Apr 2; Apr 9; Apr 16; Apr 23",section2
+NET-101,"Network Fundamentals",1,6,3:00 PM,4:30 PM,Wednesday,"Dr. Park",4,"Jul 3; Jul 10; Jul 17; Jul 24",section2
+WEB-101,"Web Development",0,1,9:00 AM,10:30 AM,Monday,"Prof. Kumar",4,"Feb 5; Feb 12; Feb 19; Feb 26",section2
+WEB-101,"Web Development",0,2,1:00 PM,2:30 PM,Wednesday,"Prof. Kumar",4,"Mar 6; Mar 13; Mar 20; Mar 27",section2
+WEB-101,"Web Development",1,7,11:00 AM,12:30 PM,Thursday,"Prof. Kumar",4,"Aug 1; Aug 8; Aug 15; Aug 22",section2
+SYS-101,"Systems Analysis",0,2,10:00 AM,11:30 AM,Tuesday,"Dr. Liu",4,"Mar 5; Mar 12; Mar 19; Mar 26",section2
+SYS-101,"Systems Analysis",0,3,3:00 PM,4:30 PM,Thursday,"Dr. Liu",4,"Apr 4; Apr 11; Apr 18; Apr 25",section2
+SYS-101,"Systems Analysis",1,4,1:00 PM,2:30 PM,Friday,"Dr. Liu",4,"May 3; May 10; May 17; May 24",section2
+SPEC-501,"Advanced Data Science",0,0,9:00 AM,10:30 AM,Monday,"Dr. Rodriguez",4,"Jan 1; Jan 8; Jan 15; Jan 22",section3
+SPEC-501,"Advanced Data Science",0,2,2:00 PM,3:30 PM,Wednesday,"Dr. Rodriguez",4,"Mar 6; Mar 13; Mar 20; Mar 27",section3
+SPEC-501,"Advanced Data Science",1,5,11:00 AM,12:30 PM,Friday,"Dr. Rodriguez",4,"Jun 7; Jun 14; Jun 21; Jun 28",section3
+ML-501,"Deep Learning",0,1,11:00 AM,12:30 PM,Tuesday,"Prof. Chen",4,"Feb 6; Feb 13; Feb 20; Feb 27",section3
+ML-501,"Deep Learning",0,3,1:00 PM,2:30 PM,Thursday,"Prof. Chen",4,"Apr 4; Apr 11; Apr 18; Apr 25",section3
+ML-501,"Deep Learning",1,6,9:00 AM,10:30 AM,Monday,"Prof. Chen",4,"Jul 1; Jul 8; Jul 15; Jul 22",section3
+RES-501,"Research Methodology",0,0,10:00 AM,11:30 AM,Wednesday,"Prof. Kim",4,"Jan 3; Jan 10; Jan 17; Jan 24",section3
+RES-501,"Research Methodology",0,2,1:00 PM,2:30 PM,Friday,"Prof. Kim",4,"Mar 1; Mar 8; Mar 15; Mar 22",section3
+RES-501,"Research Methodology",1,4,2:00 PM,3:30 PM,Monday,"Prof. Kim",4,"May 6; May 13; May 20; May 27",section3
+THESIS-501,"Thesis Project I",0,1,9:00 AM,11:30 AM,Thursday,"Dr. Rodriguez",4,"Feb 1; Feb 8; Feb 15; Feb 22",section3
+THESIS-501,"Thesis Project I",1,4,1:00 PM,3:30 PM,Tuesday,"Dr. Rodriguez",4,"May 7; May 14; May 21; May 28",section3
+THESIS-501,"Thesis Project I",1,7,9:00 AM,11:30 AM,Friday,"Dr. Rodriguez",4,"Aug 2; Aug 9; Aug 16; Aug 23",section3
+SEM-501,"Research Seminar I",0,3,1:00 PM,2:30 PM,Monday,"Prof. Chen",4,"Apr 1; Apr 8; Apr 15; Apr 22",section3
+SEM-501,"Research Seminar I",1,5,10:00 AM,11:30 AM,Tuesday,"Prof. Chen",4,"Jun 4; Jun 11; Jun 18; Jun 25",section3
+SEM-501,"Research Seminar I",1,7,2:00 PM,3:30 PM,Thursday,"Prof. Chen",4,"Aug 1; Aug 8; Aug 15; Aug 22",section3
